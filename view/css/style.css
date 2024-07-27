@@ -1,0 +1,66 @@
+/*PAGINA DE LOGIN*/
+*{
+    font-family:sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    box-sizing: content-box;
+    background-color: #7CD9A5;
+}
+
+.background{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    position: absolute;
+    z-index: 3;
+    top: 2.4rem;
+    pointer-events: none;
+}
+.usuarioLogin_conteudo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.usuarioLogin_box{
+    background-color: white; /*#DCB94A*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5%;
+    filter: drop-shadow(4px 4px 8px black);
+    padding: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    z-index: 2;
+}
+.usuarioForm{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.usuarioForm_input{
+    width: 100%;
+}
+
+.enviar{
+    background-color: #7CD9A5;
+    border: 2px solid black;
+ 
+}
+
+
+/*Cadastrar livro*/
+
+
